@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    margin-top: 20px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(184, 184, 184);
+    border-radius: 10px;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    padding: 20px 20px;
+    align-items: center;
+    color: white;
+}
+
+.left{
+    background-color: rgb(204, 0, 0);
+    padding: 15px;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 700;
+    border-radius: 5px 10px;
+    margin-left: 10px;
+}
+.left:hover{
+    cursor: pointer;
+}
+.form{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    height: min-content ;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    color: white;
+    position: relative;
+    margin-top: 100px;
+}
+.input input {
+    color: white;
+    padding: 15px;
+    width: 100%;
+    
+}
+.input input::placeholder {
+    color: rgb(143, 143, 143);
+}
+.btn {
+    margin-left: 15px;
+    padding: 14px;
+}
+.btn:hover {
+    cursor: pointer;
+}
+
+.title{
+    font-size: 20px;
+}
+.emoji:hover{
+    cursor: pointer;
+}
+.messages {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user_name{
+    padding: 10px;
+    color: rgb(184, 180, 180);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.emojies{
+    position: absolute;
+    right: 110px;
+}
+.user{
+    padding: 9px;
+}
+.me{
+    background-color: rgb(22, 22, 22);
+}
+.text{
+    /* background-color: yellow; */
+}
+.message {
+    margin-top: 10px;
+    background-color: teal;
+}
