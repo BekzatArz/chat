@@ -9,7 +9,7 @@ import EmojiPicker from "emoji-picker-react"
 import styles from "../styles/Chat.module.css"
 import Messages from './Messages'
 
-const socket = io.connect('http://192.168.0.109:5000')
+const socket = io.connect('https://chatserver-6yzt.onrender.com')
 
 const Chat = () => {
   const { search } = useLocation();
